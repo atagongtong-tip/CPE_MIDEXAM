@@ -1,0 +1,21 @@
+# Elastic Search Variables
+elasticsearch_host: localhost
+systemd_src: elastic-timeout.conf
+
+# Kibana Variables
+kibana_host: localhost
+
+# Logstash Variables
+logstash_conf: logstash.conf
+
+# Nagios Variables
+nagios_user: nagiosadmin
+nagios_password: password
+
+# LAMP Variables
+domain: arvint
+owner: arvint
+group: arvint
+index_html: index.html
+ubuntu_src: arvint-ubuntu.conf
+centos_src: arvint--centos.conf
